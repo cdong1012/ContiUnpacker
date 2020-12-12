@@ -36,4 +36,5 @@ python ContiUnpacker.py -f conti.dll -o <output_file>
 ## Acknowledgement
 
 James T. Bennett - https://www.fireeye.com/blog/threat-research/2020/12/using-speakeasy-emulation-framework-programmatically-to-unpack-malware.html
+
 FireEye's Speakeasy Emulation Framework - https://github.com/fireeye/speakeasy
