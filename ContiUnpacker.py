@@ -52,7 +52,6 @@ class ContiUnpacker(speakeasy.Speakeasy):
 
     def run(self):
         self.module = self.load_module(self.input_path)
-        print("fuck")
         self.add_api_hook(self.hookVirtualAlloc, 'kernel32', 'VirtualAlloc')
         self.add_api_hook(self.hookVirtualProtect, 'kernel32', 'VirtualProtect')
         self.run_module(self.module, all_entrypoints=False)
