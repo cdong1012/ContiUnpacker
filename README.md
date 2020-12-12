@@ -23,7 +23,7 @@ An automatic unpacker for a Conti sample
 
 * When I manually unpacked this, I noticed that the sample called **VirtualAlloc** to allocate memory, wrote the unpacked PE file to it, and called **VirtualProtect** on the **.text** region before executing it.
 
-* From this, I halted the simulation at the first **VirtualProtect** call, dumped the PE file out, and fix its IAT.
+* From this, I halted the simulation at the first **VirtualProtect** call, dumped the PE file out, and mapped it accordingly to fix the IAT.
 
 ## Usage
 
