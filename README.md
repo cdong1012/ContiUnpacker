@@ -33,6 +33,12 @@ An automatic unpacker for a Conti sample
 python ContiUnpacker.py -f conti.dll -o <output_file>
 ```
 
+## Image
+
+![alt](/image/ContiUnpacker1.png)
+
+
+![alt](/image/ContiUnpacker2.png)
 ## Acknowledgement
 
 James T. Bennett - https://www.fireeye.com/blog/threat-research/2020/12/using-speakeasy-emulation-framework-programmatically-to-unpack-malware.html
