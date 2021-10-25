@@ -64,7 +64,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Conti Unpacker unpacker')
     parser.add_argument('-f', '--file', action='store', dest='file',
-                        required=True, help='Path of UPX file to unpack')
+                        required=True, help='Path of file to unpack')
     parser.add_argument('-o', '--outfile', action='store', dest='outfile',
                         required=True, help='Path to save unpacked file')
     args = parser.parse_args()
